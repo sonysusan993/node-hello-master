@@ -18,8 +18,7 @@ artifacts:
     - index.js
     - package-lock.json
     - package.json    
-    - scripts/before_install.sh
-    - scripts/after_install.sh
+    - scripts/install.sh
     - scripts/application_start.sh
     
     
