@@ -7,4 +7,5 @@ nvm install node -g
 
 npm install forever -g
 forever stopall
-forever start /home/ec2-user/HelloNodeApp/index.js
+# forever start /home/ec2-user/HelloNodeApp/index.js
+PORT=4200 forever start /home/ec2-user/HelloNodeApp/index.js
