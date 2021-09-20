@@ -8,4 +8,3 @@ nvm install node -g
 npm install forever -g
 forever stopall
 forever start /home/ec2-user/HelloNodeApp/index.js
-npm start
