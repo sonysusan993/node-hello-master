@@ -14,10 +14,10 @@ phases:
       - echo Build completed on `date`..
 artifacts:
   files:
+    - appspec.yml
     - index.js
     - package-lock.json
-    - package.json
-    - appspec.yml
+    - package.json    
     - scripts/before_install.sh
     - scripts/after_install.sh
     - scripts/application_start.sh
