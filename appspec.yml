@@ -64,7 +64,7 @@ hooks:
  
 # During the Install deployment lifecycle event, run the commands 
 #   in the script specified in "location".
-  AfterInstall:
+  Install:
     - location: scripts/install.sh
       timeout: 300
       runas: ec2-user
