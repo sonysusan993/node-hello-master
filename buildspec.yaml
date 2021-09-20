@@ -16,8 +16,6 @@ artifacts:
   files:
     - appspec.yml
     - index.js
-    - package-lock.json
-    - package.json    
     - scripts/install.sh
     - scripts/application_start.sh
     
