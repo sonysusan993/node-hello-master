@@ -18,6 +18,9 @@ artifacts:
     - package.json
     - package-lock.json
     - index.js
+    - .prettierrc
+    - .gitignore
+    - .vscode/settings.json
     - scripts/install.sh
     - scripts/application_start.sh
     
