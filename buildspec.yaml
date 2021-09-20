@@ -15,6 +15,8 @@ phases:
 artifacts:
   files:
     - appspec.yml
+    - package.json
+    - package-lock.json
     - index.js
     - scripts/install.sh
     - scripts/application_start.sh
